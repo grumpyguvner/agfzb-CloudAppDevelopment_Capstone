@@ -33,11 +33,3 @@ class CarModel(models.Model):
             "Make: " + self.make.name + ", " + \
             "Type: " + self.type + ", " + \
             "Year: " + str(self.year)
-
-# - __str__ method to print a car make object
-
-
-# <HINT> Create a plain Python class `CarDealer` to hold dealer data
-
-
-# <HINT> Create a plain Python class `DealerReview` to hold review data
